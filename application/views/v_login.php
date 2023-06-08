@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ujian Online</title>
+    <title>Try Out SNBT 2023</title>
     <link rel="shortcut icon" href="images/fav.png">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -30,8 +30,14 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/dist/css/css.css">
 
 </head>
-
-<body style="background-image:url(images/bac.png); background-size: 100%; background-attachment: local;">
+<style>
+    body {
+        background-image: url(images/bac.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+</style>
     <div class="login-box">
         <div class="login-box-body">
 
